@@ -1,0 +1,4 @@
+name: NekioHolos
+version: '1.0-SNAPSHOT'
+main: io.mewb.nekioHolos.NekioHolos
+api-version: '1.21'
