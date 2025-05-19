@@ -1,4 +1,17 @@
 name: NekioHolos
-version: '1.0-SNAPSHOT'
+version: '${project.version}'
 main: io.mewb.nekioHolos.NekioHolos
-api-version: '1.21'
+api-version: '1.20'
+author: YourName
+description: Shows a hologram message that follows the player.
+depend: [PlaceholderAPI, ProtocolLib] # Added ProtocolLib
+softdepend: [FancyHolograms, DecentHolograms]
+commands:
+  holomessage:
+    description: Sends a follow hologram message to a player.
+    usage: "/holomessage <player> <message>"
+    permission: nekioholos.send
+permissions:
+  nekioholos.send:
+    description: Allows sending hologram messages.
+    default: op

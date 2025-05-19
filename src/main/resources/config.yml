@@ -1,0 +1,10 @@
+# Configuration for NekioHolos
+
+# Offset from the player's eye location for the hologram.
+# The hologram will also be placed 1.5 blocks in the direction the player is looking.
+hologram-offset:
+  x: 0.0
+  y: 0.5 # Adjust this to position the hologram above the player's head
+  z: 0.0
+
+# Example command: /holomessage Notch Hello %player_name%!<n>This is a test!

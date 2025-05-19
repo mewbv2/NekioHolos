@@ -1,4 +1,4 @@
-package com.example.followholo.holograms;
+package io.mewb.nekioHolos.holograms;
 
 import org.bukkit.Location;
 import org.bukkit.entity.Player;
